@@ -8,7 +8,7 @@ Mobile security SKILL for Android reverse engineering.
 ```bash
 # Clone the skill
 git clone https://github.com/Nop3z/mobile-master.git
-cd mobile- master
+cd mobile-master
 
 # Install manually
 mkdir -p ~/.claude/skills/mobile-master/
