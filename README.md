@@ -11,6 +11,7 @@ git clone https://github.com/Nop3z/mobile-master.git
 cd mobile- master
 
 # Install manually
+mkdir -p ~/.claude/skills/mobile-master/
 cp -r ./* ~/.claude/skills/mobile-master/
 ```
 
