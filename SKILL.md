@@ -8,7 +8,7 @@ description: 移动安全SKILL 协助逆向
 
 ## Suport commands
 
-| Script  | Description |
+| Commands  | Description |
 |---------|-------------|
 | [Start-Frida-Server](./scripts/Start-frida-server.sh)| 启动设备上的frida-server |
 | [Extract-Installation-Package](./scripts/Extract-Installation-Package.sh) | 从设备提取安装包APK |
