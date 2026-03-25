@@ -10,10 +10,16 @@ Mobile security SKILL for Android reverse engineering.
 git clone https://github.com/Nop3z/mobile-master.git
 
 # Install manually
+
+# For Claude Code
 mkdir -p ~/.claude/skills/
+cp -r ./mobile-master ~/.claude/skills/ 
+
+# For Kimi Code 
 mkdir -p ~/.config/agents/skills/
-cp -r ./mobile-master ~/.claude/skills/ # For Claude Code
-cp -r ./mobile-master ~/.config/agents/skills/ # For Kimi Code    
+cp -r ./mobile-master ~/.config/agents/skills/    
+
+
 ```
 
 Or manually add the path in Claude Code settings.
