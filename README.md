@@ -19,10 +19,12 @@ Or manually add the path in Claude Code settings.
 
 ## Support Commands
 
-| Script | Description |
-|--------|-------------|
-| [Start-frida-server](./scripts/Start-frida-server.sh) | Start frida-server on device |
-| [Extract-Installation-Package](./scripts/Extract-Installation-Package.sh) | Pull APK from device |
-| [spawn-app](./scripts/Spawn-app.sh) | Spawn app with frida hook |
-| [attach-app](./scripts/attach-app.sh) | Attach to running app |
-| [Dexdump](./scripts/Dexdump.sh) | Dump dex from memory (unpacking) |
+| Script  | Description |
+|---------|-------------|
+| [Start-Frida-Server](./scripts/Start-frida-server.sh)| 启动设备上的frida-server |
+| [Extract-Installation-Package](./scripts/Extract-Installation-Package.sh) | 从设备提取安装包APK |
+| [Spawn-APP](./scripts/Spawn-app.sh) | spawn模式启动应用进行hook |
+| [Attach-APP](./scripts/attach-app.sh) | attach模式附加到运行中的应用 |
+| [Dexdump](./scripts/Dexdump.sh) | 内存dump dex文件脱壳 |
+| [JADX-GUI]()|使用jadx-gui载入dexdump内容|
+| [Extract-AndroidManifest.xml](./scripts/Extract-AndroidManifest.xml.sh)| 提取安装包中的AndroidManifest.xml并进行权限审查  |
