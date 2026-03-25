@@ -1,12 +1,12 @@
 ---
 name: mobile-master
-description: 移动安全SKILL 协助逆向
+description: Mobile security SKILL for Android reverse engineering.
 ---
 
 
 ### spawn模式 attach模式 dexdump frida检测绕过 脱壳 jadx-gui apktool 重签名 提取Androidmanifest.xml 加固检测 安装限制绕过
 
-## Suport commands
+## Suport Commands
 
 | Commands  | Description |
 |---------|-------------|

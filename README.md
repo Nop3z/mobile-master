@@ -12,15 +12,15 @@ git clone https://github.com/Nop3z/mobile-master.git
 # Install manually
 mkdir -p ~/.claude/skills/
 mkdir -p ~/.config/agents/skills/
-cp -r ./mobile-master ~/.claude/skills/
-cp -r ./mobile-master ~/.config/agents/skills/    
+cp -r ./mobile-master ~/.claude/skills/ # For Claude Code
+cp -r ./mobile-master ~/.config/agents/skills/ # For Kimi Code    
 ```
 
 Or manually add the path in Claude Code settings.
 
 ## Support Commands
 
-| Script  | Description |
+| Commands  | Description |
 |---------|-------------|
 | [Start-Frida-Server](./scripts/Start-frida-server.sh)| 启动设备上的frida-server |
 | [Extract-Installation-Package](./scripts/Extract-Installation-Package.sh) | 从设备提取安装包APK |
